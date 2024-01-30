@@ -30,7 +30,7 @@ class WordBank:
             else:
                 print("Invalid input!")
 
-    def validateGuess(self, word): #Þarf að klára að implenta
+    def validateGuess(self, word):
         for i in word:
             if i.isdigit():
                 return False
