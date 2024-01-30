@@ -52,7 +52,7 @@ class Game():
                 self.printCorrectLetters(guess)
         self.calcScore()
 
-    def get_guess(self): # villumeðhöndla
+    def get_guess(self): 
         while True:
             guess = input("Enter guess: ")
             if self.validateGuess(guess):
@@ -60,7 +60,7 @@ class Game():
             else:
                 print("Invalid Input!")
     
-    def validateGuess(self, guess): #Þarf að klára að implenta
+    def validateGuess(self, guess):
         for i in guess:
             if i.isdigit():
                 return False
