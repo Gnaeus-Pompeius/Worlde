@@ -27,9 +27,9 @@ if __name__ == "__main__":
                 play = input("Press 'a' to add word to file, 'q' to quit or press 'enter' to continue: ").lower()
                 if play == "a":
                     word_bank.addToFile()
-            ## Project Stats
+  
             print(s_menu.user)
             input("\nPress enter to continue")
-            ## Save profile to CSV
+         
             CSVEditor().updateFile(s_menu.user)
         
